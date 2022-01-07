@@ -1,0 +1,75 @@
+.message {
+    max-width: 300px;
+    min-height: 150px;
+    background-color: blueviolet;
+    padding: 10px;
+    display: flex;
+  
+}
+.image{
+   display: flex;
+   min-height: 100%;
+   flex-direction: column;
+   margin: 0 10px 0 0;
+ 
+}
+.drive{
+    flex: 1 0 auto;
+}
+.image img{
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid #000; */
+    border-radius: 50%;
+    flex: 0 0 auto;
+    position: relative;
+    z-index: 10;
+
+
+   
+}
+.ms{
+    background-color:darkmagenta;
+    max-width: 100%;
+    flex: 0 1 80%;
+    border-radius: 3% 3% 3% 0;
+    padding: 0 5px;
+    position: relative;
+   
+}
+.ms:before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color:darkmagenta;
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+
+}
+.ms::after{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: -40px;
+}
+
+.time{
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    color:gray;
+}
+.msag{
+    margin: 0 0 25px 15px;
+    
+
+}
+.name{
+    color:lime;
+    margin: 10px 0 5px 10px;
+}
