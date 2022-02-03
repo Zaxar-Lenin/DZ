@@ -1,7 +1,17 @@
-.default {
-
+.default:disabled{
+    color :salmon;
+    background-color: rebeccapurple;
 }
 
 .red {
     background: red;
 }
+
+
+.red:hover {
+    background: rgb(148, 189, 183);
+}
+button:hover {
+    background: rgb(148, 189, 183);
+}
+

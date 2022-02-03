@@ -2,6 +2,90 @@
 
 }
 
+.spanOneClass{
+    display: block;
+    margin: 5px 0 0 5px;
+    font-size: 20px;
+    color: rgb(160, 8, 8);
+    animation: span 2s infinite ease;
+}
+
+@keyframes span {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+.block{
+    display: flex;
+}
+.block1{
+    padding: 3px;
+}
+.block2{
+    margin: 0 0 0 10px;
+}
+
+.spanTwoClass{
+    text-align: center;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    border: 1px solid #000;
+    width: 20px;
+    height: 23px;
+}
+
+.buttonClass{
+    width: 50px;
+    height: 30px;
+    margin: 0 0 5px 0;
+
+
+
+
+}
+.buttonClass:hover{
+    background-color: rgb(139, 13, 13);
+    border-radius: 3px;
+    
+
+
+
+}
+
 .error {
     border: 1px solid red;
+    border-radius: 5px;
 }
+
+.error:focus{
+    outline: none;
+    /* animation: inputAnim 2s infinite ease;;  */
+}
+
+/* @keyframes inputAnim {
+    0%{ 
+        opacity: 1;
+        border: 1px solid red;
+    }
+    25%{ 
+        opacity: 0;
+        border: 1px solid red;
+    }
+    50%{ 
+        opacity: 1;
+        border: 1px solid red;
+    }
+    75%{ 
+        opacity: 0;
+        border: 1px solid red;
+    }
+    100%{ 
+        opacity: 1;
+        border: 1px solid red;
+    }
+    
+} */
