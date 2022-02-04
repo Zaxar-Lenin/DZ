@@ -1,0 +1,19 @@
+.big{
+
+}
+.small{
+
+}
+
+.link {
+    width: 15px;
+    height: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 0 0 20px;
+
+}
+.button{
+    display: inline-block;
+    background-color: #000;
+}
