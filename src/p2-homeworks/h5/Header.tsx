@@ -1,15 +1,18 @@
-import React from 'react'
-import { PATH } from "./Routes1";
-import { Link, NavLink } from "react-router-dom";
+import React, {useState} from 'react'
 import s from "./Header.module.css"
+import Menu from "./menu";
+import Burger from "./burger";
 
 
 function Header() {
+    let [menu, setMenu] = useState<boolean>(false)
+    const burger = () => {
+        setMenu(!menu)
+    }
     return (
-        <div className={s.big}>
-                <Link className={s.link} to={PATH.PRE_JUNIOR}>J</Link>
-                <Link className={s.link} to={PATH.PRE_MIDDLE}>M</Link>
-                <Link className={s.link} to={PATH.PRE_SINIOR}>S</Link>
+        <div className={s.wrapping}>
+            {menu && <Menu/>}
+            <Burger menu = {menu} burger = {burger}/>
         </div>
     )
 }
