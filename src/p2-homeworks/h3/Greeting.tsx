@@ -27,7 +27,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                 <span className={s.spanOneClass}>{error}</span>
             </div>
             <div className={s.block2}>
-                <button className={s.buttonClass} onClick={addUser} >add</button>
+                <button disabled={error ? true : false} className={s.buttonClass} onClick={addUser} >add</button>
                 <span className={s.spanTwoClass}>{totalUsers}</span>
             </div> 
         </div>
