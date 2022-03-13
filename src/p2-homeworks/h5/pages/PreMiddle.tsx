@@ -1,7 +1,7 @@
 import React from 'react'
 import HW2 from '../../h2/HW2'
 import HW3 from '../../h3/HW3'
-import PreJunior from "./PreJunior";
+import HW9 from '../../h9/HW9';
 
 function PreMiddle() {
     return (
@@ -9,6 +9,7 @@ function PreMiddle() {
 
             <HW2/>
             <HW3/>
+            <HW9/>
 
             {/*<HW6/>*/}
 
