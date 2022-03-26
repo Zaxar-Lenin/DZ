@@ -1,8 +1,60 @@
-.App {
+/*.App {*/
+/*    min-height: 100vh;*/
+/*    background-color: #a37676;*/
+/*    padding: 10px;*/
+/*}*/
+.dark {
     min-height: 100vh;
-    background-color: #a37676;
     padding: 10px;
+    background: dimgrey;
+}
+.blue{
+    min-height: 100vh;
+    padding: 10px;
+    background: rgba(91, 118, 232, 0.66);
+}
+.yellow-dark{
+    min-height: 100vh;
+    padding: 10px;
+    background: #735404;
+}
+.coral{
+    min-height: 100vh;
+    padding: 10px;
+    background:  #a37676;;
+}
+
+.dark-text {
+    color: aliceblue;
+}
+
+.red {
+    min-height: 100vh;
+    padding: 10px;
+    background: lightcoral;
+}
+
+.red-text {
+    color: aqua;
+}
+
+.some {
+    min-height: 100vh;
+    padding: 10px;
+    background: lightgreen;
+}
+
+.some-text {
+    color: darkslateblue;
 }
 .HW10{
     height: 70px;
+}
+
+.rangeinput{
+    display: flex;
+    align-items: center;
+}
+.value{
+    width: 30px;
 }
